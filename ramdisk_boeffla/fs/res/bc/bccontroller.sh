@@ -11,7 +11,7 @@
 # ********************************
 
 # kernel specification (hardware; type; target; url)
-KERNEL_SPECS="i9300;cm;cm13.0;http://boeffla.df-kunde.de/sgs3/boeffla-kernel-cm/"
+KERNEL_SPECS="i9305;cm;cm13.0;http://boeffla.df-kunde.de/sgs3/boeffla-kernel-cm/"
 
 # kernel features 
 # (1=enable-busybox,2=enable-frandom,3=wipe-cache,4=disable-zram-control)
@@ -23,12 +23,12 @@ KERNEL_FEATURES="-3-6-7-"
 LIBPATH="/system/lib/modules"
 
 # block devices
-SYSTEM_DEVICE="/dev/block/mmcblk0p9"
-CACHE_DEVICE="/dev/block/mmcblk0p8"
-DATA_DEVICE="/dev/block/mmcblk0p12"
-BOOT_DEVICE="/dev/block/mmcblk0p5"
-RADIO_DEVICE="/dev/block/mmcblk0p7"
-RECOVERY_DEVICE="/dev/block/mmcblk0p6"
+SYSTEM_DEVICE="/dev/block/mmcblk0p13"
+CACHE_DEVICE="/dev/block/mmcblk0p12"
+DATA_DEVICE="/dev/block/mmcblk0p16"
+BOOT_DEVICE="/dev/block/mmcblk0p8"
+RADIO_DEVICE="/dev/block/mmcblk0p10"
+RECOVERY_DEVICE="/dev/block/mmcblk0p9"
 
 
 # *******************

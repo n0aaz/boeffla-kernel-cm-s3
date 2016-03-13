@@ -10,7 +10,7 @@
 # Parameters to be configured manually
 #######################################
 
-BOEFFLA_VERSION="5.0-alpha1-CM13.0-i9300"
+BOEFFLA_VERSION="5.0-alpha1-CM13.0-i9305"
 EXTENDED_CMDLINE=""
 
 TOOLCHAIN="/opt/toolchains/arm-eabi-4.8/bin/arm-eabi-"
@@ -20,7 +20,7 @@ MODULES_IN_SYSTEM="y"
 KERNEL_SAMSUNG="n"
 OUTPUT_FOLDER=""
 
-DEFCONFIG="boeffla_defconfig"
+DEFCONFIG="cyanogenmod_i9305_defconfig"
 DEFCONFIG_VARIANT=""
 
 MKBOOTIMG_CMDLINE=""
@@ -29,12 +29,12 @@ MKBOOTIMG_PAGESIZE="2048"
 MKBOOTIMG_RAMDISK_OFFSET="0x01000000"
 MKBOOTIMG_TAGS_OFFSET="0x00000100"
 
-BOOT_PARTITION="dev/block/mmcblk0p5"
-SYSTEM_PARTITION="/dev/block/mmcblk0p9"
+BOOT_PARTITION="dev/block/mmcblk0p8"
+SYSTEM_PARTITION="/dev/block/mmcblk0p13"
 
-ASSERT_1="m0"
-ASSERT_2="i9300"
-ASSERT_3="GT-I9300"
+ASSERT_1="m3"
+ASSERT_2="i9305"
+ASSERT_3="GT-I9305"
 ASSERT_4=""
 ASSERT_5=""
 ASSERT_6=""

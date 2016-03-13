@@ -7,7 +7,7 @@
 # 08.01.2014, andip71 (aka Lord Boeffla)
 
 # block devices (i9300)
-BOOT_DEVICE="/dev/block/mmcblk0p5"
+BOOT_DEVICE="/dev/block/mmcblk0p8"
 
 # pathes
 LIB_PATH="/system/lib/modules"
