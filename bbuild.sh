@@ -13,7 +13,7 @@
 BOEFFLA_VERSION="5.0-alpha1-CM13.0-i9305"
 EXTENDED_CMDLINE=""
 
-TOOLCHAIN="/opt/toolchains/arm-eabi-4.8/bin/arm-eabi-"
+TOOLCHAIN="/home/aaz/Téléchargements/ubertc/bin/arm-eabi-"
 
 COMPILE_DTB="n"
 MODULES_IN_SYSTEM="y"
